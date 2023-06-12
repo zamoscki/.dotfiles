@@ -21,5 +21,8 @@ brew 'nvm'
 brew 'tmux'
 brew 'nvim'
 brew 'mas'
+brew 'watchman'
+brew 'rbenv'
+brew 'ruby-build'
 
 mas 'Xcode', id: 497799835
