@@ -1,6 +1,5 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
-	name = Aleś
-	username = Niamkovič
+	name = Aleś Niamkovič
         email = aliaksei.niamkovich@gmail.com
