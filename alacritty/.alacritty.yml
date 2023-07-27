@@ -14,4 +14,4 @@ font:
 draw_bold_text_with_bright_colors: true
 
 import:
-  - ~/.dotfiles/alacritty/ubuntu_theme.yaml
+  - ~/.dotfiles/alacritty/ayu_light.yaml

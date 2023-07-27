@@ -27,5 +27,6 @@ brew 'rbenv'
 brew 'ruby-build'
 brew 'nmap'
 brew 'yarn'
+brew 'ios-deploy'
 
 mas 'Xcode', id: 497799835
