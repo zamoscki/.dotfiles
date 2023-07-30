@@ -10,6 +10,7 @@ cask 'obsidian'
 cask 'figma'
 cask 'visual-studio-code'
 cask 'flipper'
+cask 'deepl'
 
 # --- Shared across machine users
 
