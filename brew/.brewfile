@@ -14,6 +14,7 @@ cask 'visual-studio-code'
 cask 'flipper'
 cask 'deepl'
 cask 'zulu11'
+cask 'insomnia'
 
 # --- Shared across machine users
 
@@ -32,5 +33,6 @@ brew 'ruby-build'
 brew 'nmap'
 brew 'yarn'
 brew 'ios-deploy'
+brew 'htop'
 
 mas 'Xcode', id: 497799835
