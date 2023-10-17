@@ -72,9 +72,17 @@ ZSH_THEME="refined"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  colored-man-pages
+  compleat
+  nvm
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/plugins/zsh-interactive-cd/zsh-interactive-cd.plugin.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bold"
 
 # User configuration
 

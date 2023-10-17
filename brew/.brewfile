@@ -15,6 +15,8 @@ cask 'flipper'
 cask 'deepl'
 cask 'zulu11'
 cask 'insomnia'
+cask 'zoom'
+cask 'docker'
 
 # --- Shared across machine users
 
@@ -34,5 +36,8 @@ brew 'nmap'
 brew 'yarn'
 brew 'ios-deploy'
 brew 'htop'
+brew 'flyctl'
+brew 'zsh-autosuggestions'
+brew 'fzf'
 
 mas 'Xcode', id: 497799835
