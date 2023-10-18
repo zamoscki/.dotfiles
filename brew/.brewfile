@@ -1,4 +1,5 @@
 tap 'homebrew/cask-versions'
+tap 'jorgelbg/tap'
 
 cask_args appdir: '~/Applications'
 
@@ -41,5 +42,7 @@ brew 'zsh-autosuggestions'
 brew 'fzf'
 brew 'doctl'
 brew 'pass'
+brew 'pinentry-mac'
+brew 'pinentry-touchid'
 
 mas 'Xcode', id: 497799835
