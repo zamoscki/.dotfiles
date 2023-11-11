@@ -43,8 +43,6 @@ brew 'flyctl'
 brew 'zsh-autosuggestions'
 brew 'fzf'
 brew 'doctl'
-brew 'pass'
-brew 'pinentry-mac'
-brew 'pinentry-touchid'
+brew 'gnupg'
 
 mas 'Xcode', id: 497799835

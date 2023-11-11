@@ -3,6 +3,6 @@
 [user]
 	name = Aleś Niamkovič
         email = aliaksei.niamkovich@gmail.com
-	signingkey = 3DFE5D5255802018357BE740E5798D41D707C377
+	signingkey = 38A2224602C7D6F10667D0F5C21EC1E7FC882DBD
 [commit]
 	gpgsign = true
