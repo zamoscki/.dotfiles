@@ -11,12 +11,12 @@ cask 'google-chrome'
 cask 'obsidian'
 cask 'figma'
 cask 'visual-studio-code'
-cask 'deepl'
 cask 'insomnia'
 cask 'docker'
 cask 'slack'
 cask 'discord'
 cask 'qmk-toolbox'
+cask 'notion'
 
 # --- Shared across machine users
 
