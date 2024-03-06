@@ -17,6 +17,7 @@ cask 'slack'
 cask 'discord'
 cask 'qmk-toolbox'
 cask 'notion'
+cask 'webstorm'
 
 # --- Shared across machine users
 
