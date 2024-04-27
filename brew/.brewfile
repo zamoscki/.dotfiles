@@ -16,8 +16,7 @@ cask 'docker'
 cask 'slack'
 cask 'discord'
 cask 'qmk-toolbox'
-cask 'notion'
-cask 'webstorm'
+cask 'hyper'
 
 # --- Shared across machine users
 

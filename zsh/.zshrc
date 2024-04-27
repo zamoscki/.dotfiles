@@ -73,7 +73,6 @@ ENABLE_CORRECTION="true"
 plugins=(
   git
   colored-man-pages
-  compleat
   nvm
   z
   pass
