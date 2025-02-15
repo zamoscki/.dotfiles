@@ -1,24 +1,24 @@
 import = [
-  "~/.dotfiles/alacritty/tomorrow_night_bright.toml"
+  "~/.dotfiles/alacritty/github_dark_dimmed.toml"
 ]
 
 [colors]
-# draw_bold_text_with_bright_colors = true
+draw_bold_text_with_bright_colors = true
 
 [env]
 TERM = "xterm-256color"
 
 [font]
-size = 12
+size = 15
 
-# [font.normal]
-# family = "Ubuntu Mono"
+[font.normal]
+family = "Ubuntu Mono"
 
 [window]
-decorations = "None"
-startup_mode = "SimpleFullscreen"
+decorations = "Buttonless"
+startup_mode = "Maximized"
 dynamic_padding = true
-opacity = 0.9
+opacity = 1
 
 [window.padding]
 x = 16
@@ -29,3 +29,7 @@ mouse.enabled = true
 command = "open"
 regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
 hyperlinks = true
+
+[cursor]
+thickness = 0.3
+blink_interval = 200

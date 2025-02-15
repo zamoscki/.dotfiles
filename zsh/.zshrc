@@ -124,3 +124,5 @@ export VI_MODE_SET_CURSOR=true
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim=nvim 
+alias l="eza -la"
+alias ll="eza -la -T -L=2"

@@ -1,4 +1,3 @@
-tap 'homebrew/cask-versions'
 tap 'jorgelbg/tap'
 tap 'facebook/fb'
 
@@ -16,6 +15,13 @@ cask 'insomnia'
 cask 'docker'
 cask 'slack'
 cask 'discord'
+cask 'calibre'
+cask 'cursor'
+cask 'utm'
+cask 'nrf-connect'
+cask 'segger-jlink'
+cask 'obs'
+cask 'zulu@21'
 
 # --- Shared across machine users
 
@@ -25,6 +31,7 @@ cask 'maintenance', args: { appdir: '/Applications' }
 # --- Brews
 
 brew 'nvm'
+brew 'eza'
 brew 'tmux'
 brew 'nvim'
 brew 'mas'
@@ -40,5 +47,7 @@ brew 'fzf'
 brew 'doctl'
 brew 'gnupg'
 brew 'facebook/fb/idb-companion'
+brew 'apktool' # unzip and decompile android apk
+brew 'jadx' # lool up inside android apk. jadx-gui available after installation
 
 mas 'Xcode', id: 497799835
