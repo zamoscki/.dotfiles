@@ -4,8 +4,10 @@ echo 'Set NEOVIM'
 
 current_dir=$(dirname $0)
 
-# echo "$XDG_CONFIG_HOME/nvim/init.lua"
+# Source utility functions
+. "$current_dir/../utils.sh"
 
-ln -sfv $(readlink -f $current_dir/init.lua) "$XDG_CONFIG_HOME/nvim/init.lua"
+# Create symlink for neovim config file
+safe_symlink "$current_dir/init.lua" "$XDG_CONFIG_HOME/nvim/init.lua" "init.lua"
 
 echo 'Ok'

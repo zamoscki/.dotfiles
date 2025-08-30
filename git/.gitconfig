@@ -1,8 +1,8 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [user]
-	name = Aleś Niamkovič
-        email = aliaksei.niamkovich@gmail.com
+	name = Aliaksei Niamkovich
+	email = aliaksei.niamkovich@gmail.com
 	signingkey = 38A2224602C7D6F10667D0F5C21EC1E7FC882DBD
 [commit]
 	gpgsign = true

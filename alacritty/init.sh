@@ -2,8 +2,10 @@ echo 'Set Alacritty'
 
 current_dir=$(dirname $0)
 
-config_file_path=$(readlink -f $current_dir/.alacritty.toml)
+# Source utility functions
+. "$current_dir/../utils.sh"
 
-ln -sfv $config_file_path "$HOME/.alacritty.toml"
+# Create symlink for alacritty config file
+safe_symlink "$current_dir/.alacritty.toml" "$HOME/.alacritty.toml" ".alacritty.toml"
 
 echo 'Ok'

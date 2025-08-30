@@ -1,5 +1,6 @@
+[general]
 import = [
-  "~/.dotfiles/alacritty/github_dark_dimmed.toml"
+    "~/.dotfiles/alacritty/github_light.toml"
 ]
 
 [colors]
@@ -22,7 +23,7 @@ opacity = 1
 
 [window.padding]
 x = 16
-y = 30
+y = 16
 
 [[hints.enabled]]
 mouse.enabled = true
