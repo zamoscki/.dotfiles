@@ -6,3 +6,5 @@
 	signingkey = 38A2224602C7D6F10667D0F5C21EC1E7FC882DBD
 [commit]
 	gpgsign = true
+[tag]
+	gpgSign = true
