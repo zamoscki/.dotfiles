@@ -1,5 +1,6 @@
 [core]
 	excludesfile = ~/.gitignore_global
+	pager = git-split-diffs --color | less -+LFX
 [user]
 	name = Aliaksei Niamkovich
 	email = aliaksei.niamkovich@gmail.com
@@ -13,3 +14,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[split-diffs]
+	wrap-lines = false
+	theme-name = arctic

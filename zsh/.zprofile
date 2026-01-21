@@ -4,8 +4,8 @@ export BROWSER="chrome"
 export COLORTERM="truecolor"
 export TERM="xterm-256color"
 export EDITOR="nvim"
-export VISUAL="code"
-export TERMINAL="alacritty"
+export VISUAL="nvim"
+export TERMINAL="ghostty"
 
 # ENVIRONMENT
 export XDG_CONFIG_HOME="$HOME/.config"

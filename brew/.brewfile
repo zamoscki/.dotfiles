@@ -19,6 +19,7 @@ cask 'chatgpt'
 cask 'icon-composer'
 cask 'chatgpt'
 cask 'font-0xproto-nerd-font'
+cask 'ghostty'
 
 # --- Shared across machine users
 
@@ -54,5 +55,6 @@ brew 'unar'
 brew 'neofetch'
 brew 'pnpm'
 brew 'typewritten'
+brew 'git-split-diffs'
 
 # mas 'Xcode', id: 497799835
