@@ -41,3 +41,6 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 # GPG
 export GPG_TTY=$(tty)
 
+
+# Added by Obsidian
+export PATH="$PATH:/Users/listapad/Applications/Obsidian.app/Contents/MacOS"
