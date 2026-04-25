@@ -33,10 +33,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 # ANDROID
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+# export ANDROID_HOME=$HOME/Library/Android/sdk
+# export PATH=$PATH:$ANDROID_HOME/emulator
+# export PATH=$PATH:$ANDROID_HOME/platform-tools
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 
 # GPG
 export GPG_TTY=$(tty)
@@ -44,3 +44,15 @@ export GPG_TTY=$(tty)
 
 # Added by Obsidian
 export PATH="$PATH:/Users/listapad/Applications/Obsidian.app/Contents/MacOS"
+
+# pnpm
+export PNPM_HOME="/Users/listapad/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+
+# Masetro
+export PATH=$PATH:$HOME/.maestro/bin
