@@ -3,6 +3,7 @@ tap 'facebook/fb'
 tap 'wix/brew'
 tap 'anomalyco/tap'
 tap 'mobile-dev-inc/tap'
+tap 'oven-sh/bun'
 
 cask_args appdir: '~/Applications'
 
@@ -19,6 +20,8 @@ cask 'font-0xproto-nerd-font'
 cask 'ghostty'
 cask 'obs'
 cask 'pgadmin4'
+cask 'claude-code'
+cask 'reactotron'
 
 # --- Shared across machine users
 
@@ -60,5 +63,6 @@ brew 'wget'
 brew 'luarocks'
 brew 'tree-sitter-cli'
 brew 'mobile-dev-inc/tap/maestro'
+brew 'oven-sh/bun/bun'
 
 # mas 'Xcode', id: 497799835
