@@ -2,7 +2,7 @@
 
 export BROWSER="chrome" 
 export COLORTERM="truecolor"
-export TERM="xterm-256color"
+export TERM="tmux-256color"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export TERMINAL="ghostty"
