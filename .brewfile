@@ -22,6 +22,7 @@ cask 'obs'
 cask 'pgadmin4'
 cask 'claude-code'
 cask 'reactotron'
+cask 'redis-insight'
 
 # --- Shared across machine users
 
