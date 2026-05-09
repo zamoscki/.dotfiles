@@ -65,5 +65,6 @@ brew 'luarocks'
 brew 'tree-sitter-cli'
 brew 'mobile-dev-inc/tap/maestro'
 brew 'oven-sh/bun/bun'
+brew 'glow' # Render markdown on the CLI
 
 # mas 'Xcode', id: 497799835
