@@ -59,11 +59,10 @@ macos-titlebar-style = hidden
 
 # FONT
 font-family = 0xProto Nerd Font Mono
-font-family-bold = 0xProto Nerd Font Mono Bold
-font-family-italic = 0xProto Nerd Font Mono Italic
+font-style = Bold
+font-size = 12
 
 font-feature = +calt
-font-size = 12
 
 # SPLIT
 split-divider-color = #333333
