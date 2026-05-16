@@ -25,6 +25,7 @@ cask 'pgadmin4'
 cask 'claude-code'
 cask 'reactotron'
 cask 'redis-insight'
+cask 'tablepro'
 
 # --- Shared across machine users
 
@@ -69,5 +70,6 @@ brew 'tree-sitter-cli'
 brew 'mobile-dev-inc/tap/maestro'
 brew 'oven-sh/bun/bun'
 brew 'glow' # Render markdown on the CLI
+brew 'litecli' # CLI for SQLite Databases with auto-completion and syntax highlighting
 
 # mas 'Xcode', id: 497799835
